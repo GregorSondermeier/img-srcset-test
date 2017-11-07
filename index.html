@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IMG srcset Test</title>
+</head>
+<body>
+
+<h1>Testing the <code>&lt;IMG&gt;</code> and <code>&lt;PICTURE&gt;</code> HTML5 Features</h1>
+
+<hr />
+
+<h2>1. <code>&lt;IMG&gt;</code> with <code>src</code></h2>
+
+<img alt="1. &lt;IMG&gt; with src"
+     src="//via.placeholder.com/512x384" />
+
+<hr />
+
+<h2>2. <code>&lt;IMG&gt;</code> with <code>srcset</code></h2>
+
+<div style="width: 66vw">
+    <article>
+        <img alt="2. &lt;IMG&gt; with srcset"
+             src="//via.placeholder.com/512x384"
+             srcset="//via.placeholder.com/512x384 512w,
+                 //via.placeholder.com/640x480 640w,
+                 //via.placeholder.com/800x600 800w,
+                 //via.placeholder.com/1024x768 1024w,
+                 //via.placeholder.com/1280x960 1280w,
+                 //via.placeholder.com/1600x1200 1600w,
+                 //via.placeholder.com/1920x1440 1920w"
+             sizes="66vw"
+             style="width: 100%" />
+
+    </article>
+</div>
+
+
+</body>
+</html>
